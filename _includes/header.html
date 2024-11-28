@@ -7,7 +7,7 @@
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
         <a class="logo d-flex align-items-center" href="{{ "/" | relative_url }}" title="{{ site.title | escape }}">
-            <img alt="{{ site.title | escape }}" fetchpriority="high" decoding="async" data-nimg="1" width="200" src="/images/logo.svg" style="color: transparent;">
+            <img alt="{{ site.title | escape }}" fetchpriority="high" decoding="async" data-nimg="1" width="200" src="{{ "/images/logo.svg" | relative_url }}" style="color: transparent;">
         </a>
         <nav class="navbar navbar-expand-lg navbar-light">
           <div class="container-fluid">
