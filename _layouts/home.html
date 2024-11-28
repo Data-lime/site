@@ -167,7 +167,7 @@ layout: default
     </section><!-- /About Section -->
 <div id="services" class="visually-hidden">Services</div>
     <!-- Services Section -->
-    <section id="data" class="data section">
+    <section id="data" class="data section light-background">
       
       <!-- Section Title -->
       <div class="container section-title aos-init aos-animate" data-aos="fade-up">
@@ -242,7 +242,7 @@ layout: default
     </section><!-- /Services Section -->
 
     <!-- Features Section -->
-    <section id="web" class="web section light-background">
+    <section id="web" class="web section ">
 
       <!-- Section Title -->
       <div class="container section-title aos-init aos-animate" data-aos="fade-up">
@@ -419,7 +419,7 @@ layout: default
     </section><!-- /Features Section -->
 
     <!-- Pricing Section -->
-    <section id="pricing" class="pricing section">
+    <section id="pricing" class="pricing section light-background">
 
       <!-- Section Title -->
       <div class="container section-title aos-init" data-aos="fade-up">
@@ -496,31 +496,10 @@ layout: default
         </div>
       </div>
     </section>
-    <!--
-      <div class="container">
-        <div class="row gy-4">
-            {% for post in site.posts %}
-                  <div class="col-lg-3 col-md-6 aos-init" data-aos="zoom-in" data-aos-delay="100">
-                    <div class="pricing-tem">
-                        <span class="featured">Featured</span>
-                        <h3 style="color: #20c997;">
-                          <a href="{{ post.url }}">
-                            {{ post.title }}
-                          </a>
-                        </h3>
-                        <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%Y" }}</time>
-                        <div>{{ post.excerpt }}</div>
-                    </div>
-                  </div>
-            {% endfor %}
-        </div>
-        
-      </div>
-    -->
     <!-- /Pricing Section -->
 
     <!-- Faq Section -->
-    <section id="consulting" class="consulting section light-background">
+    <section id="consulting" class="consulting section ">
       <!-- Section Title -->
       <div class="container section-title aos-init" data-aos="fade-up">
         <h2>Appui & Assistance</h2>
@@ -581,24 +560,33 @@ Vous avez un projet et vous aimeriez un appui exterieur pour le mener à bien. D
 
     </section>
     
-    <section id="customers" class="contact section">
-        <!-- Section Title -->
+    <section id="customers" class="contact section light-background">
       <div class="container section-title aos-init" data-aos="fade-up">
         <h2>Ils m'ont fait confiance</h2>
-      </div><!-- End Section Title -->
+      </div>
       <div class="container aos-init" data-aos="fade" data-aos-delay="100">
         <div class="row flex">
-                <div class="inline-block mx-auto" style="width: 160px;"><img class="img-fluid" src="{{ "/images/citepa-logo-bar-225x71.png" | relative_url }}" /></div>
-                <div class="inline-block mx-auto" style="width: 180px;"><img class="img-fluid" src="{{ "/images/oieau.png" | relative_url }}" /></div>
-                <div class="inline-block mx-auto" style="width: 150px;"><img class="img-fluid" src="{{ "/images/espelia.jpg" | relative_url }}" /></div>
-                <div class="inline-block mx-auto" style="width: 280px;"><img class="img-fluid" src="{{ "/images/armoirie_MEME-FR.png" | relative_url }}" /></div>
-                <div class="inline-block mx-auto" style="width: 280px;"><img class="img-fluid" src="{{ "/images/mecc.png" | relative_url }}" /></div>
+            <div class="inline-block mx-auto" style="width:160px;">
+                <img class="img-fluid" src="{{ "/images/citepa-logo-bar-225x71.png" | relative_url }}" />
+            </div>
+            <div class="inline-block mx-auto" style="width:180px;">
+                <img class="img-fluid" src="{{ "/images/oieau.png" | relative_url }}" />
+            </div>
+            <div class="inline-block mx-auto" style="width:150px;">
+                <img class="img-fluid" src="{{ "/images/espelia.jpg" | relative_url }}" />
+            </div>
+            <div class="inline-block mx-auto" style="width:280px;">
+                <img class="img-fluid" src="{{ "/images/armoirie_MEME-FR.png" | relative_url }}" />
+            </div>
+            <div class="inline-block mx-auto" style="width:280px;">
+                <img class="img-fluid" src="{{ "/images/mecc.png" | relative_url }}" />
+            </div>
         </div>
       </div>
     </section>
     
    <!-- Contact Section -->
-    <section id="contact" class="contact section  light-background">
+    <section id="contact" class="contact section">
 
       <!-- Section Title -->
       <div class="container section-title aos-init" data-aos="fade-up">
