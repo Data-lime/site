@@ -9,11 +9,11 @@ layout: default
         <div class="row gy-5">
           
           <div class="col-lg-6 order-2 order-lg-1">
-            <img src="/images/idea.png" class="img-fluid mx-auto d-block" alt="" width="320">
+            <img src="{{ "/images/idea.png" | relative_url }}" class="img-fluid mx-auto d-block" alt="" width="320">
           </div>
           <div class="col-lg-6 order-1 order-lg-2 d-flex flex-column  section-title">
             <h2 class="visually-hidden">{{ site.title | escape }}</h2>
-            <img alt="{{ site.title | escape }}" fetchpriority="high" decoding="async" data-nimg="1" width="400" src="/images/logo.svg" style="color: transparent;">
+            <img alt="{{ site.title | escape }}" fetchpriority="high" decoding="async" data-nimg="1" width="400" src="{{ "/images/logo.svg" | relative_url }}" style="color: transparent;">
 
             <p id="edito" class="text-justify font-weight-bold">Développez vos idées</p>
           </div>
@@ -138,7 +138,7 @@ layout: default
                     <div class="about-img-over pl-50 transition5 d-inline-block position-relative" style="background: none;">
                         <div class="position-relative z-index11" data-tilt="true" data-tilt-max="10">
                             <div style="transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);">
-                                <img alt="about image 1" loading="lazy" width="0" height="0" decoding="async" data-nimg="1" class="border-radius10 position-relative z-index11 h-100 w-100" sizes="100vw" src="/images/photo.jpg" style="color: transparent;">
+                                <img alt="about image 1" loading="lazy" width="0" height="0" decoding="async" data-nimg="1" class="border-radius10 position-relative z-index11 h-100 w-100" sizes="100vw" src="{{ "/images/photo.jpg" | relative_url }}" style="color: transparent;">
                             </div>
                         </div>
                         <div class="about-shape1 position-absolute aos-init aos-animate" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="800"></div>
@@ -179,7 +179,7 @@ layout: default
         <div class="row gy-5 justify-content-between">
 
           <div class="col-xl-5 aos-init aos-animate" data-aos="zoom-out" data-aos-delay="100">
-            <img src="/images/hero.png" class="img-fluid rounded" alt="">
+            <img src="{{ "/images/hero.png" | relative_url }}" class="img-fluid rounded" alt="">
             
           </div>
 
@@ -588,11 +588,11 @@ Vous avez un projet et vous aimeriez un appui exterieur pour le mener à bien. D
       </div><!-- End Section Title -->
       <div class="container aos-init" data-aos="fade" data-aos-delay="100">
         <div class="row flex">
-                <div class="inline-block mx-auto" style="width: 160px;"><img class="img-fluid" src="/images/citepa-logo-bar-225x71.png" /></div>
-                <div class="inline-block mx-auto" style="width: 180px;"><img class="img-fluid" src="/images/oieau.png" /></div>
-                <div class="inline-block mx-auto" style="width: 150px;"><img class="img-fluid" src="/images/espelia.jpg" /></div>
-                <div class="inline-block mx-auto" style="width: 280px;"><img class="img-fluid" src="/images/armoirie_MEME-FR.png" /></div>
-                <div class="inline-block mx-auto" style="width: 280px;"><img class="img-fluid" src="/images/mecc.png" /></div>
+                <div class="inline-block mx-auto" style="width: 160px;"><img class="img-fluid" src="{{ "/images/citepa-logo-bar-225x71.png" | relative_url }}" /></div>
+                <div class="inline-block mx-auto" style="width: 180px;"><img class="img-fluid" src="{{ "/images/oieau.png" | relative_url }}" /></div>
+                <div class="inline-block mx-auto" style="width: 150px;"><img class="img-fluid" src="{{ "/images/espelia.jpg" | relative_url }}" /></div>
+                <div class="inline-block mx-auto" style="width: 280px;"><img class="img-fluid" src="{{ "/images/armoirie_MEME-FR.png" | relative_url }}" /></div>
+                <div class="inline-block mx-auto" style="width: 280px;"><img class="img-fluid" src="{{ "/images/mecc.png" | relative_url }}" /></div>
         </div>
       </div>
     </section>
