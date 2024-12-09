@@ -6,14 +6,14 @@ layout: default
     <section id="hero" class="hero section light-background">
 
       <div class="container position-relative aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-        <div class="row gy-5">
+        <div class="row gy-3">
           
-          <div class="col-lg-6 order-2 order-lg-1">
-            <img src="{{ "/images/idea.png" | relative_url }}" class="img-fluid mx-auto d-block" alt="" width="320">
+          <div class="col-lg-6 order-2 order-lg-1 d-none d-sm-block">
+            <img src="{{ "/images/idea.png" | relative_url }}" class="img-fluid mx-auto d-block " alt="" width="260">
           </div>
           <div class="col-lg-6 order-1 order-lg-2 d-flex flex-column  section-title">
             <h2 class="visually-hidden">{{ site.title | escape }}</h2>
-            <img alt="{{ site.title | escape }}" fetchpriority="high" decoding="async" data-nimg="1" width="400" src="{{ "/images/logo.svg" | relative_url }}" style="color: transparent;">
+            <img alt="{{ site.title | escape }}" fetchpriority="high" decoding="async" data-nimg="1" width="350" src="{{ "/images/logo.svg" | relative_url }}" style="color: transparent;">
 
             <p id="edito" class="text-justify font-weight-bold">Développez vos idées</p>
           </div>
@@ -22,7 +22,7 @@ layout: default
 
       <div class="icon-boxes position-relative aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
         <div class="container position-relative">
-          <div class="row gy-4 mt-5">
+          <div class="row gy-3 mt-3">
 
             <div class="col-xl-3 col-md-6">
               <div class="icon-box">
@@ -147,15 +147,17 @@ layout: default
                 </div>
             </div>
             </div>
-
-          <div class="col-lg-7 content aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+          
+          <div class="col-lg-7 content aos-init aos-animate d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-sm-1 d-none d-sm-block" style="font-size:72px;"><span class="highlight">"</span></div>
+            <div class=" col-sm-11 ">
             <p class="who-we-are">A propos</p>
             
             <p><b>Data Lime</b> est une entreprise individuelle dirigée par Nicolas DHUYGELAERE depuis avril 2024.</p>
-            <p class="fst-italic"><span class="highlight">“</span>Avant de créer mon entreprise, j'ai travaillé 18 ans pour l'Office International de l’Eau. J'y ai développé de nombreux projets pour le Système d'Information sur l’Eau (SIE) français pour le compte de l'Office Français de la Biodiversité (OFB), pour les Agences de l'Eau, pour la Commission Européenne, pour des bailleurs de fonds internationaux et pour des ONG du secteur de l'environnement.</p>
+            <p class="fst-italic">Avant de créer mon entreprise, j'ai travaillé 18 ans pour l'Office International de l’Eau. J'y ai développé de nombreux projets pour le Système d'Information sur l’Eau (SIE) français pour le compte de l'Office Français de la Biodiversité (OFB), pour les Agences de l'Eau, pour la Commission Européenne, pour des bailleurs de fonds internationaux et pour des ONG du secteur de l'environnement.</p>
             <p class="fst-italic">De part mes compétences en environnement, je suis régulièrement impliqué dans des études sur la pollution chimique, les émissions industrielles, l’assainissement urbain, les déchets dans les milieux aquatiques, les zonages réglementaires et l’état des masses d’eau.</p>
             <p class="fst-italic">Sur le plan technique, je suis spécialisé dans l'analyse de données, le développement de solution web et la mise en oeuvre de systèmes d'information basés sur des solution open sources afin de répondre à problèmatiques environnementales.</p>
-            <div><span class="highlight">”</span></div>
+            </div>
           </div>
 
           
@@ -177,13 +179,18 @@ layout: default
     <div class="container">
 
         <div class="row gy-5 justify-content-between">
-
-          <div class="col-xl-5 aos-init aos-animate" data-aos="zoom-out" data-aos-delay="100">
-            <img src="{{ "/images/hero.png" | relative_url }}" class="img-fluid rounded" alt="">
-            
+          <div class="col-xl-5   aos-init aos-animate" data-aos="zoom-out" data-aos-delay="100">
+            <div class="content px-xl-5">
+                <div class="mx-auto p-3">
+                    <svg width="280px" height="280px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="#387C33" d="M2 14V4h18v7.85l.565.34a2.47 2.47 0 0 1 .435-.135V1.875A.876.876 0 0 0 20.125 1H1.875A.876.876 0 0 0 1 1.875v12.25a.876.876 0 0 0 .875.875h8.176a2.477 2.477 0 0 1 .462-1zM2 2h18v1H2zm8 5h1v5H4V5h1v6h1V8h1v3h1V6h1v5h1zm3-1h1v1h-1zm6 0v1h-4V6zm-6 2h1v1h-1zm6 1h-4V8h4zm-6 1h1v1h-1zm6 1h-.061a2.484 2.484 0 0 0-.443-1H19zm2.5 2a1.486 1.486 0 0 0-.949.348l-2.581-1.549A1.5 1.5 0 1 0 15 11.5a1.483 1.483 0 0 0 .15.643l-2.008 2.007A1.483 1.483 0 0 0 12.5 14a1.497 1.497 0 0 0-.214 2.978l.448 2.24a1.495 1.495 0 1 0 2.088 1.976l4.208.601a1.499 1.499 0 1 0 2.164-1.617l.601-4.208A1.5 1.5 0 0 0 21.5 13zm-.5 9h-1v-1h1zm-8-1v-1h1v1zm-1-6h1v1h-1zm1.782 1.266l2.24.448a1.48 1.48 0 0 0 .138.446l-2.012 1.993a1.478 1.478 0 0 0-.434-.131l-.448-2.24a1.502 1.502 0 0 0 .516-.516zM17 11v1h-1v-1zm.266 1.782a1.494 1.494 0 0 0 .183-.13l2.581 1.55a1.503 1.503 0 0 0-.03.298 1.476 1.476 0 0 0 .018.182l-1.48.74a1.492 1.492 0 0 0-.824-.4zM17 17v-1h1v1zm-2.15 2.857l2.008-2.007a1.444 1.444 0 0 0 .962.114l1.532 2.582a1.496 1.496 0 0 0-.174.26l-4.208-.6a1.481 1.481 0 0 0-.12-.349zm5.351.173l-1.549-2.581a1.347 1.347 0 0 0 .33-1.13l1.48-.74a1.502 1.502 0 0 0 .344.243l-.601 4.208zM21 15v-1h1v1zm-5.143-2.15a1.483 1.483 0 0 0 .429.128l.448 2.24a1.5 1.5 0 0 0-.516.516l-2.24-.448a1.481 1.481 0 0 0-.128-.428z"/>
+                        <path fill="none" d="M0 0h24v24H0z"/>
+                    </svg>
+                </div>
+            </div>
           </div>
 
-          <div class="col-xl-6 d-flex">
+          <div class="col-xl-7 d-flex">
             <div class="row align-self-center gy-4">
 
               <div class="col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
@@ -514,9 +521,9 @@ Vous avez un projet et vous aimeriez un appui exterieur pour le mener à bien. D
           <div class="col-lg-4 aos-init" data-aos="fade-up" data-aos-delay="100">
             <div class="content px-xl-5">
               <div class="dark-background mx-auto p-3">
-              <svg height="280px" width="280px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+              <svg height="280px" width="280px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
                          viewBox="0 0 438.873 438.873" xml:space="preserve">
-                    <path d="M169.616,159.349c18.697,0,36.254-7.537,49.438-21.222c11.37-11.804,24.635-33.626,23.254-70.553
+                    <path fill="#387C33" d="M169.616,159.349c18.697,0,36.254-7.537,49.438-21.222c11.37-11.804,24.635-33.626,23.254-70.553
                         c-1.586-42.302-34.537-64.025-66.503-67.375c-1.952-0.205-9.572-0.261-11.095-0.125c-32.363,2.897-66.182,24.632-67.785,67.501
                         c-1.381,36.926,11.884,58.748,23.254,70.552C133.362,151.812,150.919,159.349,169.616,159.349z M204.649,124.252
                         c-9.379,9.736-21.82,15.098-35.033,15.098s-25.654-5.362-35.033-15.098c-9.471-9.833-15.263-23.39-17.105-39.736

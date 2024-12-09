@@ -23,6 +23,7 @@ email: n.dhuygelaere@gmail.com
 phone: "+33(0)7 82 46 78 46"
 address: "8 impasse des saules 87920 CONDAT/VIENNE - FRANCE"
 description: "Data Lime - Entreprise individuelle spécialisée en analyse de données sur l'environnement, développement web, système d'information & conseil"
+#baseurl: "/site" # the subpath of your site, e.g. /blog
 baseurl: "/site" # the subpath of your site, e.g. /blog
 url: "https://datalime.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: ndhuygelaere

@@ -522,12 +522,11 @@ h6 {
   height: 44px;
   border-radius: 50px;
   transition: all 0.4s;
-}
-.scroll-top a{
-    text-decoration:none!important;
+  text-decoration:none!important;
 }
 .scroll-top i {
   font-size: 24px;
+  font-weight: bold;
   color: var(--contrast-color);
   line-height: 0;
 }
@@ -655,7 +654,7 @@ section,
 .hero {
   width: 100%;
   position: relative;
-  padding: 120px 0 0 0;
+  padding: 3em 0 0 0;
 }
 
 .hero .container {
