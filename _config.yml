@@ -17,15 +17,17 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-domain: datalime.github.io
+#domain: datalime.github.io
+domain: datalime.fr
 title: Data Lime
 email: n.dhuygelaere@gmail.com
 phone: "+33(0)7 82 46 78 46"
 address: "8 impasse des saules 87920 CONDAT/VIENNE - FRANCE"
 description: "Data Lime - Entreprise individuelle spécialisée en analyse de données sur l'environnement, développement web, système d'information & conseil"
 #baseurl: "/site" # the subpath of your site, e.g. /blog
-baseurl: "/site" # the subpath of your site, e.g. /blog
-url: "https://datalime.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+#baseurl: "/site" # the subpath of your site, e.g. /blog
+#url: "https://datalime.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://datalime.fr"
 github_username: ndhuygelaere
 linkedin_username: nicolas-dhuygelaere-69400a164
 linkedin: nicolas-dhuygelaere-69400a164
